@@ -1,0 +1,117 @@
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+nav ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0055aa;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #003366;
+  color: white;
+  border-radius: 8px;
+}
